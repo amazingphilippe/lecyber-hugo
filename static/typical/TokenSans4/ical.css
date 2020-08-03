@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "TokenSans4";
+  font-style: normal;
+  font-weight: normal;
+  src: url("type/Token Sans-Regular.woff2") format("woff2"),
+    url("type/Token Sans-Regular.woff") format("woff");
+}

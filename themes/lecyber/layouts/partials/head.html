@@ -1,0 +1,20 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:type" content="portfolio">
+  <meta property="og:url" content="http://lecyber.art">
+  <meta property="og:image" content="http://philippecaron.ca/images/casque_13.jpg">
+  <meta property="og:description" content="Le cyber point art est un site dédié à la recherche sur la cyberoeuvre et la muséalisation de la cyberoeuvre.">
+
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  {{ $style := resources.Get "styles.scss" | resources.ToCSS | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+  <link rel="stylesheet" href="typical/Token4/ical.css">
+  <link rel="stylesheet" href="typical/TokenSans4/ical.css">
+
+</head>

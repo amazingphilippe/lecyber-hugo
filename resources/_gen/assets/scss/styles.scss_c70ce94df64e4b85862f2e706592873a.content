@@ -1,0 +1,21 @@
+body {
+  background-color: #f7ce5b;
+  color: #221825;
+  font-family: "TokenSans4"; }
+
+.subtitle {
+  font-family: "Token4-Green";
+  font-size: 80px;
+  text-align: center; }
+
+#content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #content h1 {
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center; }
